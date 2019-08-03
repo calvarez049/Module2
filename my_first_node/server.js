@@ -15,9 +15,9 @@ const server = myHttp.createServer((request,response)=>{
         response.write("This is the data from server.js and its coolhafdskfasfkdsjfa;lskfjasd;lfkasjfj");
         response.end();
     } else if(request.url === "/PTWD"){
-        response.write(`Alina
-        Henry
-        Anabel`);
+        response.write(`Chris
+        Alex
+        Carlos`);
         response.end();
     } else{
         response.write("this page does not exist");
