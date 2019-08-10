@@ -9,3 +9,5 @@ mongoose.connect('mongodb://localhost/recipeApp', { useNewUrlParser: true })
   }).catch(err => {
     console.error('Error connecting to mongo', err);
   });
+
+//   adding the gitignore test
